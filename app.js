@@ -1,4 +1,4 @@
 let a = "Sajid Hanif"
-const b = "Huzaifa Hamza"
-console.log (a+b)
+let b = "Huzaifa Hamza"
+console.log (a)
 console.log ("Hello World")
