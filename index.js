@@ -927,6 +927,22 @@ console.log(arr); // "Snacks", "Sandwich","Fries"
 7. sort()
 and others
 
+// Comparing Two Empty Arrays:
+// Example #1:
+var arry1 = [];
+var arry2 = [];
+var c = (arry1 == arry2); // false
+var d = (arry1 === arry2); // false
+console.log(c);
+console.log(d);
+
+// Example #2:
+var a = [];
+var b = a;
+var c = (a == b); // true
+var d = (a === b); // true
+console.log(c);
+console.log(d);
 
 // STRINGS: JavaScript strings are used for storing and manipulating text.
 // String Length Property:
@@ -1138,7 +1154,15 @@ console.log("Num2 = "+num2);
 var num3 = Math.floor(num2);
 console.log("Num3 = "+num3);
 
-// toFixed() function: Controlling the length of decimals.
+// Generate random number between some range:
+var num = Math.random();
+var num2 = (num * 6) + 1;
+var dice = Math.floor(num2); // 1 to 6
+console.log(num);
+console.log(num2);
+console.log(dice);
+
+// Controlling the length of decimals: toFixed() function
 var avg = (15 + 23 + 39) / 3; // 25.66666666666666
 var avg1 = avg.toFixed(2);// returns 25.667
 console.log(avg);
@@ -1190,94 +1214,18 @@ console.log("Unix Time (Current time in ms): "+unixtime); // Unix Time (Current 
 var epochtime = new Date(0);
 console.log("Epoch Time: "+epochtime);// Epoch Time: Thu Jan 01 1970 05:00:00 GMT+0500 (Pakistan Standard Time)
 
-
 // Retrieving the Date Components:
-var dob = new Date("Aug 19 1978 20:00:00");
-console.log("Date of Birth: "+dob);// Date of Birth: Sat Aug 19 1978 20:00:00 GMT+0500 (Pakistan Standard Time)
-
-var year = date.getFullYear(date);
-console.log(year);
-
-var month = date.getMonth(date);
-console.log(month);
-
-var dom = date.getDate(date);
-console.log(dom);
-
-var day = date.getDay(date);
-console.log(day);
-
-var hour = date.getHours(date);
-console.log(hour);
-
-var min = date.getMinutes(date);
-console.log(min);
-
-var sec = date.getSeconds(date);
-console.log(sec);
-
-var msec = date.getMilliseconds(date);
-console.log(msec);
-
-var time = date.getTime(date);
-console.log("Unix Time (Current time in milliseconds): "+time);
+var date = new Date("Aug 19 1978 20:00:00");
+console.log("Date of Birth: "+date);// Date of Birth: Sat Aug 19 1978 20:00:00 GMT+0500 (Pakistan Standard Time)
+console.log(date.getFullYear(date));
+console.log(date.getMonth(date));
+console.log(date.getDate(date));
+console.log(date.getDay(date));
+console.log(date.getHours(date));
+console.log(date.getMinutes(date));
+console.log(date.getSeconds(date));
+console.log(date.getMilliseconds(date));
+console.log("Unix Time (Current time in milliseconds): "+date.getTime(date));
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Generate random number between some range:
-// var num = Math.random();
-// var num2 = (num * 6) + 1;
-// var dice = Math.floor(num2); // 1 to 6
-// console.log(num);
-// console.log(num2);
-// console.log(dice);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-// Comparing Two Empty Arrays:
-// Example #1:
-var arry1 = [];
-var arry2 = [];
-var c = (arry1 == arry2); // false
-var d = (arry1 === arry2); // false
-console.log(c);
-console.log(d);
-
-// Example #2:
-var a = [];
-var b = a;
-var c = (a == b); // true
-var d = (a === b); // true
-console.log(c);
-console.log(d);
-*/
+// Modifying the Date:
