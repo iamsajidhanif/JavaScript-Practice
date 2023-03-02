@@ -1859,3 +1859,184 @@
 // while (i < 10);
 
 // // :: THE END ::
+
+
+// Q1:X
+// for (var i = 0; i < 5; i++){
+//     console.log(i);
+// }
+// alert(i);
+// Note: correct ans is 5 (my ans was 4)
+
+// Q2:OK
+// Note: ans is 1 (my ans is Ok)
+
+// Q3:OK
+// Note: ans is 1 (my ans is Ok)
+
+// Q4:OK
+// var name = 'Zia'
+// function printName() {
+//     var name = 'Khan';
+//     console.log(name);
+// }
+// printName()
+// console.log(name)
+// Note: ans is Khan Zia (my ans is Ok)
+
+// Q5:X
+// function printMessage(message){alert('hello world')} // it is a function
+// function printMessage('Hello world'){alert('hello world')} // error
+// printMessage.function=('Hello world'){alert('hello world')} // error
+// function printMessage=(message){alert('hello world')} // error
+// Note: correct ans is 1 (my ans was 2)
+
+// Q6:X
+// var num1 = parseInt('1.55')
+// var num3 = parseFloat('1.55')
+// var num4 = Number('1.55')
+// console.log("1. "+num1)
+// console.log("3. "+num3)
+// console.log("4. "+num4)
+// Note: correct ans is 1 (my ans were 1 & 3)
+
+// Q7:OK
+// Note: ans is 1,3,4  (my ans is Ok)
+
+// Q8:X
+// var a;
+// if (a) {
+//     alert("Message 1"); // alert 1
+// }
+// alert("Message 2"); // alert 2
+// Note: correct ans is 4 (my ans was 2)
+
+// Q9:OK
+// var str = 'Hello World'.lastIndexOf('o')
+// console.log(str)
+// Note: ans is 1 (my ans is Ok)
+
+// Q10:OK
+// var rnd = Math.round(15.75)
+// console.log(rnd)
+// Note: ans is 3 (my ans is Ok)
+
+// Q11:X
+// var num1 = 16;
+// var num3 = 4;
+// var num2 = "1";
+// alert(num1 + num2 + num3);
+// Note: correct ans is 2 (my ans was 3)
+
+// Q12:OK
+// Note: ans is 2 (my ans is Ok)
+
+// Q13:OK
+// var fruits = ["Apple", "Banana", "Grapes", "Pineapple"];
+// console.log(fruits)
+// fruits.splice(2, 0, "Peach", "Cherry")
+// console.log(fruits)
+// Note: ans is 4 (my ans is Ok)
+
+// Q14:OK
+// Note: ans is 2 (my ans is Ok)
+
+// Q15:OK
+// var x = 20.5641
+// console.log(x)
+// var y = x.toFixed(2)
+// console.log(y)
+// Note: ans is 2 (my ans is Ok)
+
+// Q16:OK
+// var ans = 5 % 2;
+// console.log(ans)
+// Note: ans is 1 (my ans is Ok)
+
+// Q17:OK
+// Note: ans is 2 (my ans is Ok)
+
+// Q18:OK
+// Note: ans is 2 (my ans is Ok)
+
+// Q19:OK
+// var fruits = ["Apple", "Banana", "Grapes", "Pineapple"];
+// console.log(fruits)
+// var newArr = fruits.slice();
+// console.log(newArr)
+// Note: ans is 1 (my ans is Ok)
+
+// Q20:X
+// var num1 = "6";
+// var num2 = "3";
+// alert(num1 - num2); // 3
+// Note: correct ans is 4 (my ans was 1)
+
+// Q21:OK
+// Note: ans is 1 (my ans is Ok)
+
+// Q22:OK
+// var hw = 'Hello World'.replace(/l/g, '*')
+// console.log(hw)
+// Note: ans is 4 (my ans is Ok)
+
+// Q23:Ok
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta"];
+// alert(cities[4]); // undefined
+// Note: ans is 2 (my ans is Ok)
+
+// Q24:OK
+// Note: ans is 1 (my ans is Ok)
+
+// Q25:Ok
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta"];
+// var myCity = cities.shift() // Karachi
+// console.log(myCity)
+// Note: ans is 2 (my ans is Ok)
+
+// Q26:X
+// for (var i = "1"; i <= 10; i++){
+    //     console.log("Hello World");
+    // }
+// Note: correct ans is 1 (my ans was 2)
+
+// Q27:OK
+// function ten() {
+//     return 10
+// }
+// alert(ten()) // 10
+// Note: ans is 3 (my ans is Ok)
+
+// Q28:OK
+// var count = 0;
+// if (4 % 2) {
+//     count++;
+// }
+// alert(count);
+// Note: ans is 4 (my ans is Ok)
+
+// Q29:OK
+// Note: ans is 2 (my ans is Ok)
+
+// Q30:OK
+// Note: ans is 2 (my ans is Ok)
+
+// Q31:X
+// var date = new Date();
+// var dt = date.getTime();
+// console.log(dt)
+// Note: correct ans is 2 (my ans was 1)
+
+// Q32:OK
+// var str = 'Hello World'.charAt(8)
+// console.log(str)
+// Note: ans is 2 (my ans is Ok)
+
+// Q33:OK
+// Note: ans is 1 (my ans is Ok)
+
+// Q34:OK
+// var count = 5;
+// count = ++count + ++count; // 13
+// alert(count);
+// Note: ans is 2 (my ans is Ok)
